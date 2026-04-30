@@ -36,6 +36,8 @@ Reducir tiempo administrativo en el control manual
 ## ESTUDIO DE VIABILIDAD
 
 Viabilidad Técnica
+
+
 Tecnologías simples (web o app básica) son suficientes
 Uso de base de datos para docentes y asistencias
 No requiere hardware complejo (solo PC o laptop)
