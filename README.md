@@ -82,3 +82,7 @@ evita duplicidades y almacena registros con fecha y hora automática. Se enfoca 
 facilidad de uso y seguridad de datos, siendo un sistema sencillo pero con lógica crítica en
 validación y control de registros.
 
+
+<img width="862" height="1356" alt="image" src="https://github.com/user-attachments/assets/8205f7e2-fac1-4461-8594-20db721d96ce" />
+
+
