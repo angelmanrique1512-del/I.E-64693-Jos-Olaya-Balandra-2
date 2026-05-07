@@ -84,5 +84,5 @@ validación y control de registros.
 
 
 <img width="862" height="1356" alt="image" src="https://github.com/user-attachments/assets/8205f7e2-fac1-4461-8594-20db721d96ce" />
-
+  ##https://www.figma.com/design/ALETE11U7srpZnlilG9nst/Sin-t%C3%ADtulo?t=NWAAj8XNfNJqXstE-1
 
