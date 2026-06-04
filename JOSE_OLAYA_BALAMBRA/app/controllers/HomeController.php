@@ -1,1 +1,0 @@
-<?php class HomeController { public function index() { echo '<h1>Bienvenidos - JOSE OLAYA</h1><a href="'.BASE_URL.'/login">Entrar al Sistema</a>'; } }

@@ -1,1 +1,0 @@
-<?php class DashboardController { public function index() { include '../app/views/dashboard/index.php'; } public function marcar() { header('Location: '.BASE_URL.'/dashboard'); } }
