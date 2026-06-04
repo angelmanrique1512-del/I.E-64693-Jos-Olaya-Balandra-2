@@ -1,0 +1,549 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #e3f2fd;
+}
+:root {
+    --azul-header: #1a5276;
+    --celeste-bg: #e3f2fd;
+    --azul-btn: #3498db;
+}
+
+.navbar {
+    background: var(--azul-header);
+    color: white;
+    padding: 15px 30px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sidebar {
+
+    width: 230px;
+    height: 100vh;
+
+    background: white;
+
+    position: fixed;
+
+    border-right: 2px solid #ddd;
+}
+
+.sidebar a {
+
+    display: block;
+
+    padding: 15px 25px;
+
+    color: var(--azul-header);
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+    border-bottom: 1px solid #eee;
+}
+
+.sidebar a:hover {
+    background: #f0f7ff;
+}
+
+.main-content {
+
+    margin-left: 230px;
+
+    padding: 40px;
+
+    text-align: center;
+}
+
+.card-registro {
+
+    background: white;
+
+    width: 500px;
+
+    display: inline-block;
+
+    padding: 30px;
+
+    border-radius: 12px;
+
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.dni-input {
+
+    width: 90%;
+
+    padding: 15px;
+
+    margin: 15px 0;
+
+    font-size: 24px;
+
+    text-align: center;
+
+    border: 2px solid var(--azul-header);
+
+    border-radius: 8px;
+}
+
+.btn-submit {
+
+    background: var(--azul-btn);
+
+    color: white;
+
+    padding: 12px 35px;
+
+    border: none;
+
+    border-radius: 5px;
+
+    font-size: 18px;
+
+    cursor: pointer;
+}
+
+.modal {
+
+    display: none;
+
+    position: fixed;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background: rgba(0,0,0,0.5);
+
+    z-index: 100;
+}
+
+.modal-content {
+
+    background: white;
+
+    width: 60%;
+
+    margin: 5% auto;
+
+    padding: 20px;
+
+    border-radius: 8px;
+}
+
+.tabla-modal {
+
+    width: 100%;
+
+    border-collapse: collapse;
+
+    margin-top: 15px;
+}
+
+.tabla-modal th {
+
+    background: #1a5276;
+
+    color: white;
+
+    padding: 10px;
+}
+
+.tabla-modal td {
+
+    padding: 10px;
+
+    border: 1px solid #ccc;
+}
+
+.menu-item {
+    width: 100%;
+}
+
+.submenu {
+    display: none;
+    background: #f4f9ff;
+}
+
+.submenu a {
+    padding-left: 40px;
+    font-size: 14px;
+}
+
+.menu-item:hover .submenu {
+    display: block;
+}
+/* LANDING PAGE */
+
+.navbar-home {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 20px 60px;
+
+    background: white;
+
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.logo-home {
+
+    font-size: 24px;
+
+    font-weight: bold;
+
+    color: #1a5276;
+}
+
+.navbar-home nav a {
+
+    margin-left: 25px;
+
+    text-decoration: none;
+
+    color: #333;
+
+    font-weight: bold;
+}
+
+.hero {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 70px;
+
+    background: #e3f2fd;
+
+    min-height: 80vh;
+}
+
+.hero-text {
+
+    width: 50%;
+}
+
+.hero-text h1 {
+
+    font-size: 58px;
+
+    color: #1a5276;
+
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+
+    font-size: 18px;
+
+    line-height: 1.7;
+
+    margin-bottom: 30px;
+
+    color: #444;
+}
+
+.btn-home {
+
+    display: inline-block;
+
+    padding: 15px 35px;
+
+    background: #3498db;
+
+    color: white;
+
+    text-decoration: none;
+
+    border-radius: 10px;
+
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+
+.btn-home:hover {
+
+    background: #2e86c1;
+}
+
+.hero-image img {
+
+    width: 420px;
+}
+
+.cards-home {
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 30px;
+
+    padding: 50px;
+
+    background: white;
+}
+
+.card-home {
+
+    width: 300px;
+
+    background: #3498db;
+
+    color: white;
+
+    padding: 30px;
+
+    border-radius: 14px;
+
+    text-align: center;
+
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.card-home i {
+
+    font-size: 45px;
+
+    margin-bottom: 20px;
+}
+
+.card-home h3 {
+
+    margin-bottom: 15px;
+}
+/* LOGIN MODERNO */
+
+.login-page {
+
+    margin: 0;
+
+    padding: 0;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    min-height: 100vh;
+
+    background: linear-gradient(
+        135deg,
+        #d6eaf8,
+        #85c1e9
+    );
+
+    font-family: Arial, sans-serif;
+}
+
+.login-container {
+
+    width: 100%;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+}
+
+.login-card {
+
+    width: 400px;
+
+    background: white;
+
+    padding: 40px;
+
+    border-radius: 18px;
+
+    text-align: center;
+
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.login-logo {
+
+    width: 100px;
+
+    margin-bottom: 15px;
+}
+
+.login-card h1 {
+
+    color: #1a5276;
+
+    margin-bottom: 10px;
+}
+
+.login-card p {
+
+    color: gray;
+
+    margin-bottom: 30px;
+}
+
+.login-card input {
+
+    width: 100%;
+
+    padding: 14px;
+
+    margin-bottom: 18px;
+
+    border: 2px solid #aed6f1;
+
+    border-radius: 10px;
+
+    font-size: 16px;
+
+    box-sizing: border-box;
+}
+
+.login-card button {
+
+    width: 100%;
+
+    padding: 14px;
+
+    border: none;
+
+    border-radius: 10px;
+
+    background: #3498db;
+
+    color: white;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.login-card button:hover {
+
+    background: #2e86c1;
+}
+/* CUADRO DE REGISTROS */
+
+.tabla-box {
+
+    margin-top: 40px;
+
+    background: white;
+
+    padding: 25px;
+
+    border-radius: 15px;
+
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.titulo-registros {
+
+    color: #1a5276;
+
+    margin-bottom: 20px;
+}
+
+table {
+
+    width: 100%;
+
+    border-collapse: collapse;
+}
+
+table th {
+
+    background: #1a5276;
+
+    color: white;
+
+    padding: 14px;
+}
+
+table td {
+
+    padding: 12px;
+
+    border-bottom: 1px solid #ddd;
+}
+
+table tr:hover {
+
+    background: #f4f9ff;
+}
+.error-message{
+    width: 94%;
+    background: #ffe5e5;
+    border: 1px solid red;
+    color: red;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+@media(max-width: 768px){
+
+    .sidebar{
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    .main-content{
+        margin-left: 0;
+        padding: 20px;
+    }
+
+    .card-registro{
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .login-card{
+        width: 90%;
+    }
+
+    .hero{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-text{
+        width: 100%;
+    }
+
+    .hero-image img{
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .cards-home{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-home{
+        width: 90%;
+    }
+}
