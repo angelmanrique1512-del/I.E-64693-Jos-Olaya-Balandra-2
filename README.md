@@ -81,7 +81,9 @@ es un sistema de asistencia basado en identificación por DNI que valida docente
 evita duplicidades y almacena registros con fecha y hora automática. Se enfoca en rapidez, 
 facilidad de uso y seguridad de datos, siendo un sistema sencillo pero con lógica crítica en
 validación y control de registros.
+
 ## BASE DE DATOS MYSQL
+```sql
 CREATE DATABASE registro;
 USE registro;
 
@@ -125,6 +127,7 @@ INSERT INTO docentes (dni, nombre, especialidad) VALUES
 ('10000008', 'SONIA QUISPE', 'RELIGION'),
 ('10000009', 'PEDRO ALVARADO', 'COMPUTO'),
 ('10000010', 'CARMEN REYES', 'CIENCIAS SOCIALES');
+```
 
 <img width="862" height="1356" alt="image" src="https://github.com/user-attachments/assets/8205f7e2-fac1-4461-8594-20db721d96ce" />
   ##https://www.figma.com/design/ALETE11U7srpZnlilG9nst/Sin-t%C3%ADtulo?t=NWAAj8XNfNJqXstE-1
