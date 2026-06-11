@@ -128,6 +128,12 @@ INSERT INTO docentes (dni, nombre, especialidad) VALUES
 ('10000009', 'PEDRO ALVARADO', 'COMPUTO'),
 ('10000010', 'CARMEN REYES', 'CIENCIAS SOCIALES');
 ```
+## PROBLEMA 
+<img width="1440" height="3200" alt="image" src="https://github.com/user-attachments/assets/ef792257-f432-4b19-8742-c952e7596224" />
+
+## EVIDENCIA DEL SOFTWARE EN LA EMPRESA 
+<img width="3200" height="1440" alt="image" src="https://github.com/user-attachments/assets/68d55a7f-c4cb-48aa-a6b0-2c5c385d3c8c" />
+
 
 <img width="862" height="1356" alt="image" src="https://github.com/user-attachments/assets/8205f7e2-fac1-4461-8594-20db721d96ce" />
   ##https://www.figma.com/design/ALETE11U7srpZnlilG9nst/Sin-t%C3%ADtulo?t=NWAAj8XNfNJqXstE-1
